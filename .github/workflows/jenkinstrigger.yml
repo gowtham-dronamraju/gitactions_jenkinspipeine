@@ -14,6 +14,6 @@ jobs:
           AUTH=$(echo -n "gowthamdronamraju:11eb3dd54a12638df3a2bc7cf630dd8835" | base64)
           
           # Trigger the Jenkins job with authentication
-          curl -X POST https://f470-49-206-62-19.ngrok-free.app/job/myfirstpipeline/build \
+          curl -X POST https://f470-49-206-62-19.ngrok-free.app/job/Tomcat_deployment_Pipelinescript/build \
           -H "Authorization: Basic $AUTH"
 
